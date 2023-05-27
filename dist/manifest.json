@@ -1,0 +1,45 @@
+{
+  "index-legacy.html": {
+    "assets": [
+      "assets/javascript-8dac5379.svg",
+      "assets/vite-4a748afd.svg"
+    ],
+    "file": "assets/index-legacy-a46d70ef.js",
+    "isEntry": true,
+    "src": "index-legacy.html"
+  },
+  "index.css": {
+    "file": "assets/index-d9d327fd.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "assets": [
+      "assets/javascript-8dac5379.svg",
+      "assets/vite-4a748afd.svg"
+    ],
+    "css": [
+      "assets/index-d9d327fd.css"
+    ],
+    "file": "assets/index-5565918d.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/public/javascript.svg": {
+    "file": "assets/javascript-8dac5379.svg",
+    "src": "src/public/javascript.svg"
+  },
+  "src/public/vite.svg": {
+    "file": "assets/vite-4a748afd.svg",
+    "src": "src/public/vite.svg"
+  },
+  "vite/legacy-polyfills": {
+    "file": "assets/polyfills-fa3e92b7.js",
+    "isEntry": true,
+    "src": "vite/legacy-polyfills"
+  },
+  "vite/legacy-polyfills-legacy": {
+    "file": "assets/polyfills-legacy-7a9487dc.js",
+    "isEntry": true,
+    "src": "vite/legacy-polyfills-legacy"
+  }
+}
