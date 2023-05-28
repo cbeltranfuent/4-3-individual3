@@ -12,6 +12,8 @@ teléfono del proveedor. Se debe generar una clase extendida del objeto proveedo
 tipo_proveedor, el cual debe la función getInfoProveedor(), indicar país y con si es un
 proveedor internacional o no
 */
+
+
 import './style.css';
 import javascriptLogo from './public/JavaScript.svg';
 import viteLogo from './public/vite.svg';

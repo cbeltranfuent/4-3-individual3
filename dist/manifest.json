@@ -4,12 +4,12 @@
       "assets/javascript-8dac5379.svg",
       "assets/vite-4a748afd.svg"
     ],
-    "file": "assets/index-legacy-a46d70ef.js",
+    "file": "assets/index-legacy-2283a5bb.js",
     "isEntry": true,
     "src": "index-legacy.html"
   },
   "index.css": {
-    "file": "assets/index-d9d327fd.css",
+    "file": "assets/index-b1857f4e.css",
     "src": "index.css"
   },
   "index.html": {
@@ -18,15 +18,23 @@
       "assets/vite-4a748afd.svg"
     ],
     "css": [
-      "assets/index-d9d327fd.css"
+      "assets/index-b1857f4e.css"
     ],
-    "file": "assets/index-5565918d.js",
+    "file": "assets/index-91eb6a9a.js",
     "isEntry": true,
     "src": "index.html"
+  },
+  "src/public/Purple Neon Modern Gaming Channel Youtube Intro.mp4": {
+    "file": "assets/Purple Neon Modern Gaming Channel Youtube Intro-d068760d.mp4",
+    "src": "src/public/Purple Neon Modern Gaming Channel Youtube Intro.mp4"
   },
   "src/public/javascript.svg": {
     "file": "assets/javascript-8dac5379.svg",
     "src": "src/public/javascript.svg"
+  },
+  "src/public/logo_awakelab_transparente.png": {
+    "file": "assets/logo_awakelab_transparente-110cfbbb.png",
+    "src": "src/public/logo_awakelab_transparente.png"
   },
   "src/public/vite.svg": {
     "file": "assets/vite-4a748afd.svg",

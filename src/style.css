@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -13,22 +14,37 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 html * {
   box-sizing: content-box;
   border: 1px solid blue !important;
   font-size: 30px;
+  
+}
+
+
+.video-bg {
+  position:relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 
 }
-/* .clock{
-  display: flex;
-  height: 300px;
-  width: 300px;
-} */
+
+.video-bg video {
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+
+}
+
 #clock{
   display: flex;
   height: 300px;
   width: 300px;
 }
+
 
 a {
   font-weight: 500;
@@ -41,11 +57,10 @@ a:hover {
 
 body {
   box-sizing: content-box;
-  /* border: 1px solid blue !important; */
   margin: 0;
   display: flex;
   place-items: center;
-
+  
 }
 
 h1 {
@@ -111,4 +126,5 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} 
+

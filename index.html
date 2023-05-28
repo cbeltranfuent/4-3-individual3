@@ -12,8 +12,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- link para resetear los css a travez de un css. -->
   <link rel="stylesheet" href="./src/reset.css">
-  <!-- link para colocar estilos en css con bootstrap -->
-  <link rel="stylesheet" href="./src/bootstrap.css">
   <!-- link para colocar estilos en css -->
   <link rel="stylesheet" href="./src/style.css">
   <!-- meta para descripcion de la pagina -->
@@ -28,7 +26,14 @@
 <!-- fin head -->
 
 
-<body>
+<body class="text-body-emphasis ">
+  <section class="text-body-emphasis ">
+    
+  <div class="video-bg">
+    <video width="320" height="240" autoplay loop muted>
+      <source src="./src/public/Purple Neon Modern Gaming Channel Youtube Intro.mp4" type="video/mp4">
+    </video>
+  </div>
   <!-- inicio nav  -->
   <nav class="navbar sticky-top ">
     <a class="navbar-brand navbar-expand-lg navbar-dark bg-dark" href="#">
@@ -39,28 +44,13 @@
     <div id="clock"></div>
   </nav>
   <!-- cierre nav -->
-  <nav class="clock">
-
-
-  </nav>
   <div class="app">
     <div id="app"></div>
   </div>
-  <section>
-    <div class="video-bg">
-      <video width="320" height="240" autoplay loop muted>
-              <source src="./src/public/Purple Neon Modern Gaming Channel Youtube Intro.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-      </video>
-</div>
   </section>
   <script type="module" src="./src/main.js"></script>
-  <script src="./src/components/bootstrap.bundle.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
-    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 
-
-  <footer class="pie_pagina text-body-emphasis bg-dark" data-bs-theme="dark"> todos los derechos reservados -
+  <footer class="pie_pagina text-body-emphasis bg-dark fixed bottom" data-bs-theme="dark"> todos los derechos reservados -
     carlos beltran fuentealba 2023</footer>
 </body>
 
