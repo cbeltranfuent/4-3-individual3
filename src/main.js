@@ -18,7 +18,9 @@ import viteLogo from './public/vite.svg';
 import { setupCounter } from './components/counter.js';
 import { Articulos } from './components/articulos.js';
 import { Proveedores } from './components/proveedores.js';
+import { TipoProveedor } from './components/TipoProveedor.js';
 import { initClock } from './components/clocks.js';
+
 
 document.querySelector('#app').innerHTML = `
 <div>
@@ -48,12 +50,16 @@ console.log("============ A R T I C U L O ==============")
 
 console.log(articulo2)
 
-let proveedor2 = new Proveedores("ferrokabros", "ferroinfo@kabros.cl", articulo2, "+56912345678");
-console.log("============ P R O V E E D O R ==============")
+let proveedor2 = new Proveedores("ferrokabros spa", "ferroinfo@kabros.cl", articulo2, "+56912345678");
+// console.log("============ P R O V E E D O R ==============")
 
 console.log(proveedor2)
 
-console.log(proveedor2.getInfoProveedores())
+
+let proveedor3 = new TipoProveedor("ferrokabros spa",articulo2,true,"ARGENTINA");
+console.log("============ P R O V E E D O R / T I P O - P R O V E E D O R ==============")
+
+console.log(proveedor3.getInfoProveedores())
 
 const obtenImpuestos = (Proveedores) => {
   let totalEmpresa = Proveedores.articulo.precio;

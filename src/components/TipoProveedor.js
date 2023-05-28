@@ -1,9 +1,9 @@
-import { Proveedores } from "./proveedores";
+import { Proveedores } from "./proveedores.js";
 
 
 export class TipoProveedor extends Proveedores{
-    constructor(nombre, articulo = {}, precio, internacional, pais){
-        super(nombre, articulo, precio);
+    constructor(nombre, articulo = {}, internacional, pais){
+        super(nombre, articulo);
         this._internacional = internacional;
         this._pais = pais;
     }
@@ -22,16 +22,16 @@ export class TipoProveedor extends Proveedores{
         super.articulo = articulo;
     }
 
-    get precio() {
-        return super.precio;
-    }
-    set precio(precio) {
-        super.precio = precio;
-    }
+    // get precio() {
+    //     return super.precio;
+    // }
+    // set precio(precio) {
+    //     super.precio = precio;
+    // }
 
 
 
-    getInfoProveedores() {
-        return super.getInfoProveedores();
+    getInfoTipoProveedores() {
+        return super.getInfoTipoProveedores();
     }
 }

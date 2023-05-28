@@ -1,23 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- inicio head -->
+
 <head>
-  <meta charset="UTF-8" />
+  <!-- meta sobre el lenguaje latino -->
+  <meta charset="UTF-8">
+  <!-- meta sobre la compatibilidad con ie -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- meta para ajustar a tamañs de movil o tablet -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link para resetear los css a travez de un css. -->
+  <link rel="stylesheet" href="./src/reset.css">
+  <!-- link para colocar estilos en css con bootstrap -->
+  <link rel="stylesheet" href="./src/bootstrap.css">
+  <!-- link para colocar estilos en css -->
+  <link rel="stylesheet" href="./src/style.css">
+  <!-- meta para descripcion de la pagina -->
+  <meta name="description" content="estudio, Html, HTML, html5, javaScript, CSS3, ">
+  <!-- meta para el indexador vea de que trata la pagina -->
+  <meta name="keywords" content="estudio, Html, HTML, html5, javaScript, CSS3, css, js, pagina, PAGINA, WEB, Etc">
+  <!-- link para colocar icono y nombre en la viñeta de la pagina -->
   <link rel="icon" type="image/svg+xml" href="./src/public/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <!-- title que lleva el nombre de la pagina en el head. esto solo es visible en viñeta o pestaña de la pagina. -->
+  <title>ejercicio individual 3 modulo 4</title>
 </head>
+<!-- fin head -->
+
 
 <body>
+  <!-- inicio nav  -->
+  <nav class="navbar sticky-top ">
+    <a class="navbar-brand navbar-expand-lg navbar-dark bg-dark" href="#">
+      <img src="../4-3-individual3/src/public/logo_awakelab_transparente.png" alt="Logo" height="30"
+        class="d-inline-block align-text-top me-4">
+      ACTIVIDAD individual 3 - MODULO 4
+    </a>
+    <div id="clock"></div>
+  </nav>
+  <!-- cierre nav -->
   <nav class="clock">
-    
-      <div id="clock"></div>
-    
+
+
   </nav>
   <div class="app">
     <div id="app"></div>
   </div>
+  <section>
+    <div class="video-bg">
+      <video width="320" height="240" autoplay loop muted>
+              <source src="./src/public/Purple Neon Modern Gaming Channel Youtube Intro.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+      </video>
+</div>
+  </section>
   <script type="module" src="./src/main.js"></script>
+  <script src="./src/components/bootstrap.bundle.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+  <footer class="pie_pagina text-body-emphasis bg-dark" data-bs-theme="dark"> todos los derechos reservados -
+    carlos beltran fuentealba 2023</footer>
 </body>
 
 </html>

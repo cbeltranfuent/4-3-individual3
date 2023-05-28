@@ -19,11 +19,11 @@ html * {
   font-size: 30px;
 
 }
-.clock{
+/* .clock{
   display: flex;
   height: 300px;
   width: 300px;
-}
+} */
 #clock{
   display: flex;
   height: 300px;
