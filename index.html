@@ -26,22 +26,30 @@
 <!-- fin head -->
 
 <!-- inicio body -->
-<body>
-  <section class="text-body-emphasis row">
 
-    <header class="sticky-top">
+<body class="sticky-top">
+  <section class="text-body-emphasis container text-center">
+    <!-- <header class="sticky-top text-center">
+    </header> -->
+    <section class="divSection container row">
       <!-- inicio nav  -->
-      <nav class="navbar sticky-top ">
-        <a class="navbar-brand navbar-expand-lg navbar-dark bg-dark" href="#">
-          <img src="../4-3-individual3/src/public/logo_awakelab_transparente.png" alt="Logo" height="30"
-            class="d-inline-block align-text-top me-4">
-          ACTIVIDAD individual 3 - MODULO 4
-        </a>
-        <div class="center" id="clock"></div>
-      </nav>
+      <div class="divNavbar justify-content-md-center col">
+        <nav class="navbar justify-content-md-center">
+        <!-- <nav> -->
+          <a class="aNavbar navbar-brand navbar-expand-lg navbar-dark bg-dark" href="#">
+          <!-- <a href="#"> -->
+            <img src="../4-3-individual3/src/public/logo_awakelab_transparente.png" alt="Logo" height="30"
+              class="d-inline-block align-text-top me-4">
+            ACTIVIDAD individual 3 - MODULO 4
+          </a>
+        </nav>
+      </div>
       <!-- cierre nav -->
+      <div class="clock col" id="clock">
 
-    </header>
+      </div>
+
+    </section>
     <section class="text-body-emphasis row">
       <div class="video-bg">
         <video width="320" height="240" autoplay loop muted>
@@ -51,9 +59,14 @@
       <div class="app">
         <div id="app"></div>
       </div>
-      <footer class="pie_pagina text-body-emphasis bg-dark fixed bottom" data-bs-theme="dark"> todos los derechos
-        reservados -
-        carlos beltran fuentealba 2023</footer>
+      <div class="container row">
+        <div class="col">
+          <footer class="text-body-emphasis bg-dark fixed-bottom col">
+            todos los derechos reservados - carlos beltran fuentealba 2023
+          </footer>
+
+        </div>
+      </div>
     </section>
   </section>
   <script type="module" src="./src/main.js"></script>

@@ -26,13 +26,13 @@ import { initClock } from './components/clocks.js';
 
 document.querySelector('#app').innerHTML = `
 <div>
+<h2>Aqui usamos Vite!</h2>
 <a href="https://vitejs.dev" target="_blank">
   <img src="${viteLogo}" class="logo" alt="Vite logo" />
 </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
   <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
 </a>
-<h1>Aqui usamos Vite!</h1>
 <div class="card">
   <button id="counter" type="button"></button>
 </div>
@@ -53,7 +53,7 @@ console.log("============ A R T I C U L O ==============")
 console.log(articulo2)
 
 let proveedor2 = new Proveedores("ferrokabros spa", "ferroinfo@kabros.cl", articulo2, "+56912345678");
-// console.log("============ P R O V E E D O R ==============")
+console.log("============ P R O V E E D O R ==============")
 
 console.log(proveedor2)
 
